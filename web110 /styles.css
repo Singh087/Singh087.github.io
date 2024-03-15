@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+<style>
+    p {
+        color: green;
+        font-family: 'Times New Roman', serif;
+    }
+</style>
+
+<p style="background-color: yellow; font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
