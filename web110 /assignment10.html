@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10: Multimedia and Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Assignment 10: Multimedia and Images</h1>
+    <p>In this assignment, we learned about multimedia and images in HTML. We learned how to add raster and vector images, audio, and video links to our web pages. We also learned how to embed YouTube videos using the iframe tag. We can apply this learning to our current or future environments by ensuring that our web pages are visually appealing and informative.</p>
+    
+    <h2>Raster and Vector Images</h2>
+    <p>We added a raster image and a vector image to our web110/images folder. We then added img tags to our web110/assignment10.html file to display these images.</p>
+    <img src="images/raster_image.jpg" alt="Raster Image">
+    <img src="images/vector_image.svg" alt="Vector Image">
+    
+    <h2>Audio and Video Links</h2>
+    <p>We added an audio tag that links to mp3 or mp4 and oga audio files at http://media.w3.org/2010/05/sound/.</p>
+    <audio controls>
+        <source src="http://media.w3.org/2010/05/sound/horse.mp3" type="audio/mpeg">
+        <source src="http://media.w3.org/2010/05/sound/horse.oga" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h2>Video</h2>
+    <p>We added a video tag that links to webm, ogv,and mp4 video files at http://media.w3.org/2010/05/video/.</p>
+    <video width="320" height="240" controls>
+        <source src="http://media.w3.org/2010/05/video/movie_300.webm" type="video/webm">
+        <source src="http://media.w3.org/2010/05/video/movie_300.ogv" type="video/ogg">
+        <source src="http://media.w3.org/2010/05/video/movie_300.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>YouTube Video</h2>
+    <p>We added an iframe tag that embeds a YouTube video.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

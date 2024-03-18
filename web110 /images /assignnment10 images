@@ -1,0 +1,7 @@
+cp raster_image.jpg ./image_folder/
+cp vector_image.svg ./image_folder/
+cp horse.mp3 ./audio_folder/
+cp horse.oga ./audio_folder/
+cp movie_300.webm ./video_folder/
+cp movie_300.ogv ./video_folder/
+cp movie_300.mp4 ./video_folder/
