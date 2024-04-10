@@ -1,0 +1,67 @@
+<, feel!DOCTYPE free html> to ask
+<.html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport If" content="width you have= any furtherdevice- questionswidth or need help with, initial-scale any part=1 of the.0">
+ code,    <title>JavaScript Extra please feel free to ask. Credit Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="name"></h1>
+    <p id="dateTime"></p>
+    <button id="refreshBtn">Refresh</button>
+    <canvas id="canvas1" width="200" height="200"></canvas>
+    <canvas id="canvas2" width="200" height="200"></canvas>
+
+    <script>
+        // Get the elements
+        const nameEl = document.getElementById('name');
+        const dateTimeEl = document.getElementById('dateTime');
+        const canvas1 = document.getElementById('canvas1');
+        const canvas2 = document.getElementById('canvas2');
+        const ctx1 = canvas1.getContext('2d');
+        const ctx2 = canvas2.getContext('2d');
+        const refreshBtn = document.getElementById('refreshBtn');
+
+        // Set the name
+        nameEl.textContent = 'Amtoj singh';
+
+        // Set the date and time
+        const now = new Date();
+        dateTimeEl.textContent = now.toLocaleString();
+
+        // Write name on canvas1
+        ctx1.font = '20px Arial';
+        ctx1.fillText('Amtoj singh', 50, 50);
+
+        // Draw on canvas2
+        ctx2.beginPath();
+        ctx2.arc(100, 100, 50, 0, 2 * Math.PI);
+        ctx2.stroke();
+
+        // Add button click event listener
+        refreshBtn.addEventListener('click', () => {
+            location.reload();
+        });
+    </script>
+</body>
+</html>
+
+<!-- web110/style.css -->
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+canvas {
+    display: block;
+    margin: 10px auto;
+}
